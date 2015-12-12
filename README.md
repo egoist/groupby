@@ -55,7 +55,7 @@ data = groupBy(data);
 
 ## Why
 
-It's useful for manage something with multi-level structure, for example a book, it has chapter 1, chapter 1.1 or even chapter 1.2.1. You can put all files in the same folder and use `groupby` to structure them when you need the whole book index, like you want to build a API for these posts.
+It's useful for managing something with multi-level structure, for example a book, it has chapter 1, chapter 1.1 or even chapter 1.2.1. You can put all files in the same folder and use `groupby` to structure them when you need the whole book index, like you want to build an API for the book.
 
 ## License
 
