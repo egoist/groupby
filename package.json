@@ -1,6 +1,6 @@
 {
   "name": "groupby",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Group a set of objects by some specific semantic property",
   "main": "index.js",
   "scripts": {

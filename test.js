@@ -20,7 +20,6 @@ test('main', t => {
       name: 'hia'
     }
   ];
-  array = groupBy(array);
-  console.log(JSON.stringify(array, null, 2))
-  t.pass()
+  array = groupBy(array, { removeKey: false });
+  t.same(array['1']['1']['name'], 'bar')
 });
