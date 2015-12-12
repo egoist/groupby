@@ -31,27 +31,23 @@ var data = [
   }
 ];
 // by default it's grouped by `index`
-data = groupby(data);
+data = groupBy(data);
 // output
 {
-  '1': {
-    name: 'foo'
-  }
-} {
-  '1': {
-    '1': {
-      name: 'bar'
+  "1": {
+    "1": {
+      "name": "bar"
     },
-    name: 'foo'
+    "name": "foo"
   },
-  '2': {
-    '2': {
-      name: 'hoo'
+  "2": {
+    "2": {
+      "name": "hoo"
     }
   },
-  '3': {
-    '1': {
-      name: 'hia'
+  "3": {
+    "1": {
+      "name": "hia"
     }
   }
 }

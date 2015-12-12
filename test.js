@@ -21,6 +21,6 @@ test('main', t => {
     }
   ];
   array = groupBy(array);
-  //console.log(JSON.stringify(array, null, 2))
+  console.log(JSON.stringify(array, null, 2))
   t.pass()
 });
